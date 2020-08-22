@@ -1,0 +1,63 @@
+.login {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e9bcb7;
+  background-image: linear-gradient(315deg, #f7b4ad 0%, #4e8177 74%);
+  background-size: 100% 100%;
+}
+.login .login-header {
+  position: relative;
+  top: -250px;
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+.login .login-header img {
+  height: 100px;
+  width: 100px;
+  border-radius: 40px;
+  margin: 0 10px 0 -30px;
+  animation: App-logo-spin infinite 7s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.login .login-header h1 {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 0px;
+}
+.login .login-content {
+  position: absolute;
+  top: 250px;
+  width: 400px;
+  height: 280px;
+  background-color: #fcf8f8;
+  padding: 20px 40px;
+  border-radius: 25px;
+  opacity: 0.8;
+}
+.login .login-content h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 23px;
+}
+.login .login-content .login-form span {
+  border-radius: 50px;
+}
+.login .login-content .login-form .login-form-button {
+  width: 100%;
+  border-radius: 50px;
+}

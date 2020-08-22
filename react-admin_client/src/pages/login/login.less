@@ -1,0 +1,68 @@
+.login{
+    width: 100%;
+    height: 100%;
+    // background-image: url('./images/bg.jpg');
+     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #f7b4ad 0%, #4e8177 74%);
+    // background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+    background-size: 100% 100%;
+    .login-header{
+        position: relative;
+        top:-250px;
+        display: flex;
+        align-items: center;
+        height: 80px;
+        // background-color:#00fc0d;
+        img{
+            height: 100px;
+            width: 100px;
+            border-radius: 40px;
+            margin: 0 10px 0 -30px;
+            animation: App-logo-spin infinite 7s linear;
+            height: 40vmin;
+            pointer-events: none;
+        }
+        @keyframes App-logo-spin {
+            from {
+              transform: rotate(0deg);
+            }
+            to {
+              transform: rotate(360deg);
+            }
+          }
+        h1{
+            font-size: 40px;
+            color: white;
+            margin-bottom: 0px;
+        }
+    }
+    .login-content{
+        position: absolute;
+        top: 250px;
+        width: 400px;
+        height: 280px;
+        background-color: rgb(252, 248, 248);
+        padding: 20px 40px;
+        border-radius: 25px;
+        opacity:0.8;
+        h2{
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 23px;
+        }
+        .login-form{
+            span{
+                border-radius: 50px;
+            }
+            .login-form-button{
+                width: 100%;
+                border-radius: 50px;
+            }
+        }
+    }
+}
